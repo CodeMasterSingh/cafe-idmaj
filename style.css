@@ -1,0 +1,106 @@
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #FFD700;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+header p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Navigation Styles */
+
+nav {
+  background-color: #333;
+  color: #FFF;
+  padding: 10px;
+}
+
+nav table {
+  width: 100%;
+  margin-bottom: 10px;
+  border-collapse: collapse;
+}
+
+nav th,
+nav td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #FFF;
+}
+
+nav th {
+  background-color: #555;
+}
+
+nav label {
+  color: #FFF;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+nav select {
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Main Styles */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+section {
+  flex: 1 1 45%;
+  margin-bottom: 20px;
+}
+
+section img {
+  width: 100%;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+footer h1 {
+  color: #FFF;
+  font-size: 24px;
+}
